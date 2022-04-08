@@ -7,6 +7,8 @@
     "build": "babel src -d dist --extensions .ts",
     "dev": "nodemon --exec node_modules/.bin/babel-node src/index.ts --extensions .ts",
     "start": "node dist/index.js",
+    "format": "prettier --write .",
+    "lint": "eslint --fix . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,11 +23,20 @@
   },
   "homepage": "https://github.com/Scoowy/babel-typescript-template#readme",
   "devDependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.9",
-    "@babel/node": "^7.16.8",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-typescript": "^7.16.7",
-    "nodemon": "^2.0.15"
+    "@babel/cli": "7.17.6",
+    "@babel/core": "7.17.9",
+    "@babel/node": "7.16.8",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-typescript": "7.16.7",
+    "@typescript-eslint/eslint-plugin": "5.18.0",
+    "@typescript-eslint/parser": "5.18.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.2.0",
+    "nodemon": "2.0.15",
+    "prettier": "2.6.2"
   }
 }
