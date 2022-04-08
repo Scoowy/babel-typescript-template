@@ -4,6 +4,9 @@
   "description": "An template for typescript project using babel",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d dist --extensions .ts",
+    "dev": "nodemon --exec node_modules/.bin/babel-node src/index.ts --extensions .ts",
+    "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/Scoowy/babel-typescript-template/issues"
   },
-  "homepage": "https://github.com/Scoowy/babel-typescript-template#readme"
+  "homepage": "https://github.com/Scoowy/babel-typescript-template#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "nodemon": "^2.0.15"
+  }
 }
