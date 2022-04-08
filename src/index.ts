@@ -1,5 +1,7 @@
-const sales: number[] = [10, 40, 50];
+const greatting: string = "Hello World";
 
-const message = `Sales January ${sales[0]}`;
+const sayHello = (message: string) => {
+  console.log(message);
+};
 
-console.log(message);
+sayHello(greatting);
