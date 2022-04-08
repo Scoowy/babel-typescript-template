@@ -1,0 +1,20 @@
+{
+  "name": "babel-typescript-template",
+  "version": "1.0.0",
+  "description": "An template for typescript project using babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scoowy/babel-typescript-template.git"
+  },
+  "keywords": [],
+  "author": "Scoowy<gahonajuanjo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scoowy/babel-typescript-template/issues"
+  },
+  "homepage": "https://github.com/Scoowy/babel-typescript-template#readme"
+}

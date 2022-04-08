@@ -1,0 +1,10 @@
+# Node
+node_modules/
+
+# Env variables
+*.env
+
+# Out folders
+out/
+dist/
+build/
